@@ -23,8 +23,7 @@
 					<?php include 'php/funcionesEstaticas.php'; ?>	
 				
 				</div>
-	
-	
+
 			</div>
 		</div>
 		<footer>

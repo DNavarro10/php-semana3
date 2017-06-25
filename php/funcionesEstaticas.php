@@ -32,9 +32,9 @@
 		
 		/* valores*/
 
-		$valor1 = new persona('Juan','27');
-		$valor2 = new persona('Sonia','32');
-		$valor3 = new persona('Juan','27');
+		$valor1 = new persona("Juan","27");
+		$valor2 = new persona("Sonia","32");
+		$valor3 = new persona("Juan","27");
 
 		/* comparacion simple  = */
 		echo 'Comparacion simple <br><hr>';
@@ -53,6 +53,7 @@
 		echo '<hr><br>';
 		/* comparacion de identidad ===*/
 		echo 'Comparacion identidad<br><hr>';
+	
 		if($valor1 === $valor3){
 			echo "Iguales por comparación identidad <br>";
 		}else{
