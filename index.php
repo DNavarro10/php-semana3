@@ -21,9 +21,10 @@
 			<div class="php">
 				<div class="warp">
 					<?php include 'php/funcionesEstaticas.php'; ?>	
-				
 				</div>
-
+			</div>
+			<div class="warp 2 ">
+				<?php include 'php/circulo.php'; ?>
 			</div>
 		</div>
 		<footer>

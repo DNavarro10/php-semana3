@@ -11,13 +11,20 @@
 		}
 		
 		public function area(){
-			 $area = (PI*(radio * radio))/2; 
- 			return $area;
+			$areaCirculo = pow(Radio,2)*PI;
+			
+			return $areaCirculo;
 		}
 
 		public function perimetro(){
-			return 2*3.14*$radio;
+			$perimetroCirculo = 2*3.14*Radio; 
+			return $perimetroCirculo;
 		}
 }
-	echo area();
+	$mostrarArea = new circulo();
+	$mostrarPerime = new circulo();
+	echo "<br><hr>";
+	echo "El radio del circulo es = " .$mostrarArea -> area();
+	echo "<br><hr>";
+	echo "El perimetro del circulo es = ".$mostrarPerime -> perimetro();
 ?>
